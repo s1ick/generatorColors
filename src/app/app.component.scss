@@ -1,37 +1,40 @@
-
 .container {
     display: flex;
     height: 100vh;
-}
-.col {
+  }
+  
+  .col {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    & h2 {
-        padding: 10px;
-        color: #fff;
-        border-radius: 10px;
-        transition: background 0.3s;
-        &:hover {
-            background: rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-        }
+  
+    h2 {
+      padding: 10px;
+      color: #fff;
+      border-radius: 10px;
+      transition: background 0.3s;
+  
+      &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
     }
-    & button {
-        outline: none;
-        border: none;
-        background: transparent;
-        font-size: 1.5rem;
-        color: #fff;
-        padding: 10px;
-        border-radius: 10px;
-        transition: background 0.3s;
-        &:hover {
-            background: rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-        }
+  
+    button {
+      outline: none;
+      border: none;
+      background: transparent;
+      font-size: 1.5rem;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      transition: background 0.3s;
+  
+      &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
     }
   }
-  
